@@ -239,7 +239,7 @@ local function UnpackColor(Color)
 	return Color3.fromRGB(Color.R, Color.G, Color.B)
 end
 
-local function LoadConfiguration(Configuration)
+local function Loadsssssuration(Configuration)
 	local Data = HttpService:JSONDecode(Configuration)
 	table.foreach(Data, function(FlagName, FlagValue)
 		if RayfieldLibrary.Flags[FlagName] then
@@ -2356,7 +2356,7 @@ function RayfieldLibrary:LoadConfiguration()
 		pcall(function()
 			if isfile(ConfigurationFolder .. "/" .. CFileName .. ConfigurationExtension) then
 				LoadConfiguration(readfile(ConfigurationFolder .. "/" .. CFileName .. ConfigurationExtension))
-				RayfieldLibrary:Notify({Title = "Configuration Loaded", Content = "The configuration file for this script has been loaded from a previous session"})
+				RayfieldLibrary:Notify({Title = "Configuration Loaded", Content = "ตั้งค่าโหลดละ ขอบคุณค่าขนมละกัน บิดตึงๆ 5555555"})
 			end
 		end)
 	end
