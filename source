@@ -2356,7 +2356,7 @@ function RayfieldLibrary:LoadConfiguration()
 		pcall(function()
 			if isfile(ConfigurationFolder .. "/" .. CFileName .. ConfigurationExtension) then
 				LoadConfiguration(readfile(ConfigurationFolder .. "/" .. CFileName .. ConfigurationExtension))
-				RayfieldLibrary:Notify({Title = "Configuration Loaded", Content = "ตั้งค่าโหลดละ ขอบคุณค่าขนมละกัน บิดตึงๆ 5555555"})
+				RayfieldLibrary:Notify({Title = "Configuration Loaded", Content = "config is Loaded, but U GOT BANNED"})
 			end
 		end)
 	end
